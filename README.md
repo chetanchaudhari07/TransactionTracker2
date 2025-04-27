@@ -11,15 +11,19 @@ Transaction Tracker 2 is a simple and efficient application designed to help use
 - User-friendly interface.
 - Firebase Login & Signup Feature.
 
+## Dummy Login 
+email : chetancdi077@gmail.com
+password : 123456789
+
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/TransactionTracker2.git
+    git clone https://github.com/chetanchaudhari07/TransactionTracker2
     ```
 2. Navigate to the project directory:
     ```bash
-    cd TransactionTracker2
+    cd project
     ```
 3. Install dependencies:
     ```bash
