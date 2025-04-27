@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD8rBqXeLqNOu_IZfK6wqL5h-qt9L24Lfo",
-    authDomain: "moneytracker-166ed.firebaseapp.com",
-    projectId: "moneytracker-166ed",
-    storageBucket: "moneytracker-166ed.firebasestorage.app",
-    messagingSenderId: "345890186931",
-    appId: "1:345890186931:web:163a0bafa45f2a8453f2c6",
-    measurementId: "G-KLNJ5L7WE3"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
